@@ -1,0 +1,98 @@
+.navbar{
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+.navbar-brand{
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+.search-button{
+    padding: 0.5rem 1rem;
+    color: #000000;
+    font-weight: bold;
+    border: solid;
+    border-color: #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: #28a745;
+}
+.checkout-button{
+    padding: 0.5rem 1rem;
+    color: #000000;
+    font-weight: bold;
+    border: solid;
+    border-color: #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.checkout-button:hover{
+    background-color: #28a745;
+}
+.cart-container{
+    display: flex;
+    align-items: center;
+}
+.cart-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 0.5rem;
+}
+.card{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.card-img-top{
+    width: 100%;
+    height: auto;
+}
+.card-body{
+    padding: 1rem;
+}
+.card-text{
+    margin-bottom: 1rem;
+}
+.quantity-control{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.quantity-control button{
+    margin-right: 0.5rem;
+}
+.quantity{
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #28a745;
+    color: #000000;
+    font-weight: bold;
+    border: solid;
+    border-color: #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #28a745;
+}
